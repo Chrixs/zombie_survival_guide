@@ -34,24 +34,20 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.a{
+  border: dotted;
+}
 .link1{
-  color: #FFF8FD;
-  line-height:25px;
 }
 /**#suppliesForWaterPurifier {
   color: red;
   font-size: 20%;
     }*/
 #begginersGuide{
-  position: absolute;
-  background: linear-gradient(to right, black, rgba(255, 0,0,0));
-  text-shadow: 3px 3px #262626;
+  position: relative;
   margin: 0px;
   color:#9E0000;
-  font-size: 60px;
-  padding-top: 300px;
-  padding-left:20px;
-
+  font-size: 100%;
 }
 /*#stepsForWaterPurifier {
   color: blue;
