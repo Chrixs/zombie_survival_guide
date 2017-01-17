@@ -15,18 +15,45 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-#suppliesForWaterPurifier {
+
+.parallax2 {
+  background-image: url('./images/zombieHands.jpg');
+  height: 50%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3 {
+  background-image: url('./images/zombieAttack.jpg');
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.link1{
+  color: #FFF8FD;
+  line-height:25px;
+}
+/**#suppliesForWaterPurifier {
   color: red;
   font-size: 20%;
-
-    }
+    }*/
 #begginersGuide{
+  position: absolute;
+  background: linear-gradient(to right, black, rgba(255, 0,0,0));
+  text-shadow: 3px 3px #262626;
+  margin: 0px;
+  color:#9E0000;
+  font-size: 60px;
+  padding-top: 300px;
+  padding-left:20px;
 
-  background-color: grey;
-  font-size: 36px;
-  padding-top: 10px;
 }
-#stepsForWaterPurifier {
+/*#stepsForWaterPurifier {
   color: blue;
   font-size: 20;
-}
+}*/*/
