@@ -83,3 +83,7 @@ body, html {
   left: 100px;
   top: 300px;
 }
+
+.audio-controller {
+  background-color: black;
+}
