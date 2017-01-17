@@ -53,7 +53,11 @@ body, html {
   padding-left:20px;
 
 }
-/*#stepsForWaterPurifier {
-  color: blue;
-  font-size: 20;
-}*/*/
+.parallax4{
+  background-image: url('./images/dying-light-zombie.jpg');
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
