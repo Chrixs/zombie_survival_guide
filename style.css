@@ -20,7 +20,7 @@ body, html {
     background-image: url('./images/zombies.jpg');
 
     /* Full height */
-    height: 50%;
+    height: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -34,10 +34,13 @@ body, html {
   background-color: grey;
   font-size: 20px;
   padding-top: 1px;
+  position: absolute;
+  left: 0px;
+  width: 65%;
 }
 
 .body {
-  background-color: grey;
+  background-color: black;
 }
 .title {
   position: absolute;
@@ -50,5 +53,33 @@ body, html {
   padding-right: 10px;
 }
 
-.link {
+.link-box {
+  position: absolute;
+  right: 0px;
+  width: 35%;
+  height: 500px;
+  background-color: grey;
+  font-size: 25px;
+  padding-top: 1px;
+}
+
+.red-box {
+  height: 39;
+  background: linear-gradient(to right, #A41B1B, rgba(255,0,0,0));
+  color: white;
+  padding-top: 6px;
+  padding-right: 30px;
+  padding-left: 10px;
+}
+
+#link1 {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+
+#link2 {
+  position: absolute;
+  left: 100px;
+  top: 300px;
 }
