@@ -15,3 +15,40 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.parallax2 {
+    /* The image used */
+    background-image: url('./images/zombies.jpg');
+
+    /* Full height */
+    height: 50%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.essential-tips {
+  height: 500px;
+  background-color: grey;
+  font-size: 20px;
+  padding-top: 1px;
+}
+
+.body {
+  background-color: grey;
+}
+.title {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  color: #A41B1B;
+  text: bold;
+  font-size: 50px;
+  background: linear-gradient(to right, black, rgba(255,0,0,0));
+  padding-right: 10px;
+}
+
+.link {
+}
