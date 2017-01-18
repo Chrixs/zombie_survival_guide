@@ -3,6 +3,10 @@ body, html {
     margin: 0px;
 }
 
+#results {
+  color: red;
+}
+
 .parallax6 {
   background-image: url('./images/zombieHands.jpg');
   height: 50%;
