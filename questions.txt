@@ -1,6 +1,6 @@
 
 How long since the Apocalypse started?
- 1 None
+  None
  30-180
  180- 365
  +365
@@ -87,26 +87,74 @@ scooter
 car
 
 Resources?
-*How much food do you have stocked?
+*How much time would the food you have stocked last?
+1 day
+1 week
+1 month
+1 year or +
 
 1 Are you planting vegetables
 1 Are you farming?
-1 How many miles you have to transport to get water?
+*How many miles you have to transport to get water?
 >1m
 1m-3m
 3m-8m
 <8m
 
-2 How many super markets do you have in a range of 0.5miles?
+* How many super markets do you have in a range of 0.5miles?
 1
 2-4
 4+
 
-How fit are you?
+*How fit are you?
 kind of
 very
 Morbid obese
 Schwarzenegger
+
+RESPONSE
+100%
+STEP 1
+The first you should do is put on as many different layers of clothes as possible.
+(Luckily you live in a cold state and have many winter clothes available)
+Make sure no skin is showing and has several layers.
+This will slow your movement and reflexes but it will also make it harder for them to get a good bite on you.
+FACT: biting through a sweatshirt is difficult and biting through Carhart clothes is nearly impossible.
+Granted that the zombies will have stronger bite strength then humans but that is crushing strength and if you
+double up the sweatshirts and Carhart or other materials it should beable to stop the teeth or nails from breaking the skin.
+(Note that the crushing power of the human jaw is actually enough to crush bones but bones can heal and the Z-infection can not).
+
+CARDIO is a solid rule. Stay in shape so you don’t tire out at the wrong time
+
+STEP 2
+Step two is a two part step- first you must arm yourself temporarily ( In Step 4 you will be upgrading)
+Set up a temporary home base of opperations wherever you are (best place could be the second story apt with only one entrance).
+If power is still on at this point you should be inviting people you trust in the area and establish a group of survivors to help.
+If there is an un-dead army out there you'll want to have your own.
+Unlike harry potter you will gladly enlist the help of my friends and family and even strangers.
+
+STEP 3
+Once you have contacted whoever is close enough to get to your place, you will leave them there to defend while taking all the bags
+you can carry, plus your weapon, and procuring a vehicle preferably a truck, which you will then take to the closest grocery store
+to load up on canned goods and what food you can.
+
+STEP 4
+The Roads will undoubtably be clogged with traffic.  What we cannot crash our way through we will have to go around.
+  Using the ducks to travel a combination of rivers and road we will head to the West, but not west of the rockies.
+    I want to go to the west for mulitple reasons.  1) less people = less zombies.. I get there are huge sprawling cities in the west,
+     but there are also alot of very small towns and I am hoping the Z’s will group up in the cities  2) wide flat spaces = seeing them
+      coming after you ( at least better than say in the woods) I don’t want anything to sneak up on me.  3) I am anticipating a rush
+       of people going north and hoping to avoid that.  Also I feel that my survivability increases in the warmer dry climate vs. a
+        freezing north or mountain terrain.  If you know how to survive up those environments then more power to you… I am just being
+        realistic.. it isn’t for me.  4) Stay Mobile:  The lots of small towns I mentioned earlier I will raid for supplies
+        (food, water, weapons, and radios) will make staying on the move easier.
+         I do not know if this is true but they say everyone carries a gun in Texas, which would probably be a good place for us
+         survivors to find ammunition.   5) I really want to point this out again.. I am scared of being stuck in cold weather and I feel that I can survive better in warm weather than cold. I mean you ever hear of the donner party or play oregon trail.. cold is bad..(I admit heading north and trying to freeze out the zombies has many valid points but realistically… its a bad bet)
+
+
+
+
+
 
 
 
@@ -123,4 +171,3 @@ Schwarzenegger
   Good luck out there. And keep your brains where they belong — in your head.</li>
 <li> If you like wearing heels, unlucky, time to get rid of all of your high heel shoes.
   Get hold of some sturdy boots that will last, as well as some trail shoes built for speed, because you’re going to be doing an awful lot of running.</li>
-  
