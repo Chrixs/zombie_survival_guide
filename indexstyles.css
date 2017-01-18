@@ -1,5 +1,6 @@
 body, html {
   height: 100%;
+  margin: 0px;
 }
 
 .image-link1 {
@@ -37,6 +38,9 @@ body, html {
 }
 
 #link1 {
+  margin: 0px;
+  font-family: Nobile;
+  font-size: 35px;
   position: top;
   height: 100%;
   background: linear-gradient(to right, black, rgba(255,0,0,0));
@@ -44,6 +48,9 @@ body, html {
 }
 
 #link2 {
+  margin: 0px;
+  font-family: Nobile;
+  font-size: 35px;
   position: bottom;
   height: 100%;
   background: linear-gradient(to right, black, rgba(255,0,0,0));
