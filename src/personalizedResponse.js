@@ -3,6 +3,24 @@ var PersonalizedResponse = function() {
 };
 
 PersonalizedResponse.prototype.getValue = function(hashArray) {
-  var string = hashArray[0].value
-  return parseFloat(string)
+  valueArray= [];
+  for(var i = 0; i < hashArray.length; i++){
+    var string = hashArray[i].value;
+    var value = parseInt(string)
+    valueArray.push(value);
+  }
+  return valueArray;
+};
+
+PersonalizedResponse.prototype.getTotalScore = function(valueArray) {
+  var totalScore = 0
+  for(var i = 0; i < valueArray.length; i++){
+    totalScore += valueArray[i];
+  }
+return totalScore
+};
+
+PersonalizedResponse.prototype.survivalPercentage = function(totalScore){
+  var percentage = totalScore + 20;
+  return percentage.toString() + '%';
 };
