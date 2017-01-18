@@ -3,8 +3,9 @@ body, html {
     margin: 0px;
 }
 
-#results {
-  color: red;
+#survival-chance {
+  color: rgb(88, 231, 21);
+  font-size: 40px;
 }
 
 .parallax6 {

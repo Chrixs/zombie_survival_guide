@@ -4,9 +4,12 @@ $("#button").click(function(e) {
     var update = function() {
       var p = new PersonalizedResponse();
       var survivalPercentage = p.survivalPercentage(p.getTotalScore(p.getValue($('.question1').serializeArray())));
-        $('.form-response').text(
-          JSON.stringify(survivalPercentage)
+        $('.form-response').html(
+          "<div id=survival-chance>Chance of survival: " + survivalPercentage + "</div><br>" +
+          "<p><a href='https://mapofthedead.com/'>Click here</a> for all your google maps zombie needs</p>"
+
         );
+
 
     };
     update();
