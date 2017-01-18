@@ -124,7 +124,7 @@ body, html {
 }
 .parallax5{
   background-image: url('./images/Zombie-Apocalypse.jpg');
-  height: 50%;
+  height: inherit;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
