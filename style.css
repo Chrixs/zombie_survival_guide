@@ -100,6 +100,9 @@ body, html {
   font-size:20px;
   color:#FFF8FD;
   max-width: relative;
+  text-align: justify;
+  padding-right:10px ;
+  padding-left:10px ;
 
 }
 .foodInfo{
@@ -111,6 +114,8 @@ body, html {
   background-padding:20px;
   font-size:20px;
   color:#FFF8FD;
+  text-align: justify;
+
 
 
 
@@ -125,6 +130,8 @@ body, html {
   font-size:20px;
   color:#FFF8FD;
   max-width: auto;
+  text-align: justify;
+
 
 }
 .hunterInfo{
@@ -138,6 +145,8 @@ body, html {
   color:#FFF8FD;
   max-width: auto;
   padding-right: 10px;
+  text-align: justify;
+  padding-left: 10px;
 
 }
 

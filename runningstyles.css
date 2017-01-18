@@ -50,6 +50,10 @@ body, html {
   background-color: black;
 }
 
-.gif {
+#gif {
+  top: -10%;
+  height: 80%;
+  position: relative;
   width: 100%;
+  bottom: -10%;
 }
