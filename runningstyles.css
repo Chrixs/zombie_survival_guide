@@ -1,27 +1,31 @@
 body, html {
   height: 100%;
+  margin: 0px;
+  font: Nobile;
 }
 
-.image1 {
+.image {
   background-image: url('./images/running.jpg');
-
   height: 50%;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 100%;
-  /*padding-bottom: 220px;*/
+  background-size: cover;
 }
 
 #link1 {
+  font-family: Nobile;
+  font-size: 35px;
   position: relative;
   height: 50%;
-  color: green;
+  color: black;
 }
 
 .left-box {
+  margin: 0px;
+  font-family: Nobile;
+  font-size: 35px;
   height: 400px;
   background-color: green;
-  font-size: 40px;
   padding-top: 0px;
   position: absolute;
   left: 0px;
@@ -29,9 +33,11 @@ body, html {
 }
 
 .right-box {
+  margin: 0px;
+  font-family: Nobile;
+  font-size: 35px;
   height: 400px;
   background-color: red;
-  font-size: 40px;
   padding-top: 0px;
   position: absolute;
   right: 0px;
@@ -39,5 +45,9 @@ body, html {
 }
 
 .body {
-background-color: black;
+  background-color: black;
+}
+
+.gif {
+  width: 100%;
 }
