@@ -1,3 +1,4 @@
+
 describe('personalized response', function() {
 
   var personalizedResponse;
@@ -25,5 +26,7 @@ describe('personalized response', function() {
     var totalScore = 4;
     expect(personalizedResponse.survivalPercentage(totalScore)).toEqual('4%');
   });
+
+
 
 });
