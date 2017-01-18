@@ -3,21 +3,7 @@ body, html {
     margin: 0px;
 }
 
-.parallax {
-    /* The image used */
-    background-image: url('./images/zombie.jpg');
-
-    /* Full height */
-    height: 50%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax2 {
+.parallax6 {
   background-image: url('./images/zombieHands.jpg');
   height: 50%;
 

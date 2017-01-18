@@ -1,0 +1,53 @@
+body, html {
+  height: 100%;
+  margin: 0px;
+  font: Nobile;
+}
+
+.image {
+  background-image: url('./images/running.jpg');
+  height: 50%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#link1 {
+  font-family: Nobile;
+  font-size: 35px;
+  position: relative;
+  height: 50%;
+  color: black;
+}
+
+.left-box {
+  margin: 0px;
+  font-family: Nobile;
+  font-size: 35px;
+  height: 400px;
+  background-color: green;
+  padding-top: 0px;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+
+.right-box {
+  margin: 0px;
+  font-family: Nobile;
+  font-size: 35px;
+  height: 400px;
+  background-color: red;
+  padding-top: 0px;
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
+
+.body {
+  background-color: black;
+}
+
+.gif {
+  width: 100%;
+}
