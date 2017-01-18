@@ -5,8 +5,8 @@ body, html {
 .image1 {
   background-image: url('./images/running.jpg');
 
-
-  background-position: relative;
+  height: 50%;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: 100%;
   /*padding-bottom: 220px;*/
@@ -21,7 +21,7 @@ body, html {
 .left-box {
   height: 400px;
   background-color: green;
-  font-size: 100px;
+  font-size: 40px;
   padding-top: 0px;
   position: absolute;
   left: 0px;
@@ -31,7 +31,7 @@ body, html {
 .right-box {
   height: 400px;
   background-color: red;
-  font-size: 100px;
+  font-size: 40px;
   padding-top: 0px;
   position: absolute;
   right: 0px;
