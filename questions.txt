@@ -1,18 +1,18 @@
 
-How long since the Apocalypse started?
+1How long since the Apocalypse started?
   None
  30-180
  180- 365
  +365
 
-1 Good thinking planning ahead
-1 How do you think the virus will be spread?
+Good thinking planning ahead
+2How do you think the virus will be spread?
   air
   only by zombie contact
   water
   human contact
 
-1 What possible zombies could you be facing?(choose up to 3)
+3What possible zombies could you be facing?(choose up to 3)
 Unknown
 Slow
 Quick
@@ -21,10 +21,10 @@ Weak
 Smart
 Dumb
 
-1 Do you have friends?
+4Do you have friends?
   yes
   no
-1 How many can you trust with your life?
+5How many can you trust with your life?
   a.none
   less than half
   just 1
@@ -53,24 +53,24 @@ only by zombie contact
 water
 human contact
 
-*Are you in a group?
+6Are you in a group?
 yes
 no
 
 *What size?
 
-*In what kind of place are you?
+7In what kind of place are you?
 Urban
 1Rural
 2City
 Suburban
 
-*How are you feeling?
+8How are you feeling?
 
 Do you think of yourself as mentally stable person?
 
 
-*What was your previous occupation?
+9What was your previous occupation?
 
 *Do you have a preffered weapon?
 firearms
