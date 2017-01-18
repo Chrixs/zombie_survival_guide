@@ -1,4 +1,4 @@
-var PersonalizedResponse = function() {
+function PersonalizedResponse() {
 
 };
 
@@ -10,4 +10,16 @@ PersonalizedResponse.prototype.getValue = function(hashArray) {
     valueArray.push(value);
   }
   return valueArray;
+};
+
+PersonalizedResponse.prototype.getTotalScore = function(valueArray) {
+  var totalScore = 0
+  for(var i = 0; i < valueArray.length; i++){
+    totalScore += valueArray[i];
+  }
+return totalScore
+};
+
+PersonalizedResponse.prototype.survivalPercentage = function(totalScore){
+  return totalScore.toString() + '%';
 };

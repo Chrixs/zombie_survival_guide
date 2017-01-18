@@ -1,5 +1,11 @@
 body, html {
-  height: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+#survival-chance {
+  color: rgb(88, 231, 21);
+  font-size: 40px;
 }
 
 .parallax6 {
@@ -24,25 +30,97 @@ body, html {
   border: dotted;
 }
 .link1{
+  text-decoration:none;
+  font-size: 1000%;
+  opacity: 0.7;
+  top: 25%;
+  left: 30%;
 }
+
+.link2{
+  text-decoration:none;
+  position: relative;
+  font-size: 1000%;
+  top: 25%;
+  left: 10%;
+}
+
+.link3{
+  text-decoration:none;
+  font-size: 1000%;
+  left: 30%;
+  top: 50%;
+}
+<<<<<<< HEAD
 <<<<<<< HEAD
 /**#suppliesForWaterPurifier {
   color: red;
   font-size: 20%;
     }*/
 #begginersGuide{
-  position: relative;
 =======
 
+.link4 {
+  text-decoration:none;
+  font-size: 1000%;
+>>>>>>> 612ee94b50ca02c927366e32444db985f4094833
+  position: relative;
+  top: 50%;
+  left: 10%;
+  background: transparent;
+}
+
+#line1{
+  text-align: center;
+}
+#line2 {
+  text-align: center;
+}
+#link_to_guide{
+  background-color:black;
+}
+
+#guideBody{
+  background-image: url('./images/zombie_hoard.jpg');
+  height: 25%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #beginnersGuide{
+<<<<<<< HEAD
   position: absolute;
   background: linear-gradient(to right, black, rgba(255, 0,0,0));
   text-shadow: 3px 3px #262626;
 >>>>>>> c3c2c074bcba1b0973633247345b47f341c04c9f
+=======
+  text-align: center;
+>>>>>>> 612ee94b50ca02c927366e32444db985f4094833
   margin: 0px;
   color:#9E0000;
-  font-size: 100%;
+  font-size: 300%;
 }
+
+#read_more{
+  opacity: 0;
+}
+#read_more_after{
+  opacity: 1;
+}
+.medicalInfo{
+  background: linear-gradient(to right, black, rgba(255, 0,0,0));
+  background-color:grey;
+  margin-bottom:-2.2%;
+  background-color:#9E0000;
+  padding-top:10px;
+  background-padding:20px;
+  font-size:20px;
+  color:#FFF8FD;
+
+}
+
 .parallax4{
   background-image: url('./images/dying-light-zombie.jpg');
   height: 50%;
@@ -53,7 +131,7 @@ body, html {
 }
 .parallax5{
   background-image: url('./images/Zombie-Apocalypse.jpg');
-  height: 50%;
+  height: inherit;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
