@@ -51,10 +51,19 @@ body, html {
   left: 30%;
   top: 50%;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+/**#suppliesForWaterPurifier {
+  color: red;
+  font-size: 20%;
+    }*/
+#begginersGuide{
+=======
 
 .link4 {
   text-decoration:none;
   font-size: 1000%;
+>>>>>>> 612ee94b50ca02c927366e32444db985f4094833
   position: relative;
   top: 50%;
   left: 10%;
@@ -81,7 +90,14 @@ body, html {
 }
 
 #beginnersGuide{
+<<<<<<< HEAD
+  position: absolute;
+  background: linear-gradient(to right, black, rgba(255, 0,0,0));
+  text-shadow: 3px 3px #262626;
+>>>>>>> c3c2c074bcba1b0973633247345b47f341c04c9f
+=======
   text-align: center;
+>>>>>>> 612ee94b50ca02c927366e32444db985f4094833
   margin: 0px;
   color:#9E0000;
   font-size: 300%;
