@@ -1,4 +1,4 @@
-var PersonalizedResponse = function() {
+function PersonalizedResponse() {
 
 };
 
@@ -21,6 +21,5 @@ return totalScore
 };
 
 PersonalizedResponse.prototype.survivalPercentage = function(totalScore){
-  var percentage = totalScore + 20;
-  return percentage.toString() + '%';
+  return totalScore.toString() + '%';
 };

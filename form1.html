@@ -2,16 +2,83 @@
 <head>
 </head>
 <body>
+  <div class='form-response'>
   <form class='question1'>
     <label>How long since the apocalypse started?</label><br>
-    <input name='survival-time' type='radio' value='0.1' checked> It hasn't started<br>
-    <input name='survival-time' type='radio' value='0.2'> 1 - 6 months<br>
-    <input name='survival-time' type='radio' value='0.3'> 6 months - 1 year<br>
-    <input name='survival-time' type='radio' value='0.4'> Greater than a year<br>
-    <input type='submit' value='Submit'>
+    <input name='survival-time' type='radio' value='2' checked> It hasn't started<br>
+    <input name='survival-time' type='radio' value='4'> 1 - 6 months<br>
+    <input name='survival-time' type='radio' value='6'> 6 months - 1 year<br>
+    <input name='survival-time' type='radio' value='8'> Greater than a year<br>
+    <br>
+    <label>How do you think the virus is/will be spread?</label><br>
+    <input name='virus-spread' type='radio' value='8' checked> Only by zombie contact<br>
+    <input name='virus-spread' type='radio' value='6'> Human contact<br>
+    <input name='virus-spread' type='radio' value='4'> In the water<br>
+    <input name='virus-spread' type='radio' value='2'> By air<br>
+    <br>
+    <label>What type of zombies are you facing?</label><br>
+    <input name='zombie-type' type='radio' value='6' checked> Strong and slow<br>
+    <input name='zombie-type' type='radio' value='4'> Weak and fast<br>
+    <input name='zombie-type' type='radio' value='2'> Strong and fast<br>
+    <input name='zombie-type' type='radio' value='8'> Weak and slow<br>
+    <br>
+    <label>How big is your group?</label><br>
+    <input name='group-size' type='radio' value='2' checked> Im alone<br>
+    <input name='group-size' type='radio' value='4'> Less than 5<br>
+    <input name='group-size' type='radio' value='8'> Less than 10<br>
+    <input name='group-size' type='radio' value='6'> More than 10<br>
+    <br>
+    <label>What weapons would/do you have?</label><br>
+    <input name='weapons' type='radio' value='4' checked> Firearms<br>
+    <input name='weapons' type='radio' value='8'> Melee weapons<br>
+    <input name='weapons' type='radio' value='6'> Bow/Crossbow<br>
+    <input name='weapons' type='radio' value='2'> Improvised/homemade<br>
+    <br>
+    <label>What transport would/do you have?</label><br>
+    <input name='transport' type='radio' value='2' checked> Bike<br>
+    <input name='transport' type='radio' value='8'> Tank<br>
+    <input name='transport' type='radio' value='4'> Horse<br>
+    <input name='transport' type='radio' value='6'> Car<br>
+    <br>
+    <label>How long would your food last?</label><br>
+    <input name='food' type='radio' value='2' checked> Less than a week<br>
+    <input name='food' type='radio' value='4'> Less than a month<br>
+    <input name='food' type='radio' value='6'> Less than 6 months<br>
+    <input name='food' type='radio' value='8'> More than 6 months<br>
+    <br>
+    <label>How far is the closest water source?</label><br>
+    <input name='water' type='radio' value='8' checked> Less than a mile<br>
+    <input name='water' type='radio' value='6'> Less than 3 miles<br>
+    <input name='water' type='radio' value='4'> Less than 8 miles<br>
+    <input name='water' type='radio' value='2'> More than 8 miles<br>
+    <br>
+    <label>How often do you exercise?</label><br>
+    <input name='fitness' type='radio' value='2' checked> Never<br>
+    <input name='fitness' type='radio' value='4'> Less than once a week<br>
+    <input name='fitness' type='radio' value='6'> Once a week<br>
+    <input name='fitness' type='radio' value='8'> More than once a week<br>
+    <br>
+    <label>What is the terrain like?</label><br>
+    <input name='terrain' type='radio' value='2' checked> Urban<br>
+    <input name='terrain' type='radio' value='6'> Rural<br>
+    <input name='terrain' type='radio' value='4'> Suburban<br>
+    <input name='terrain' type='radio' value='8'> Coastal<br>
+    <br>
+    <label>What was your previous occupation?</label><br>
+    <input name='occupation' type='radio' value='4' checked> Medical<br>
+    <input name='occupation' type='radio' value='8'> Military<br>
+    <input name='occupation' type='radio' value='6'> Physical<br>
+    <input name='occupation' type='radio' value='2'> Other<br>
+    <br>
+    <input id='button' type='submit' value='Submit'>
+
   </form>
+</div>
+<br>
 
 
+  <script src="src/personalizedResponse.js"></script>
   <script src="jquery-3.1.1.js"></script>
   <script src="interface.js"></script>
+
 </body>

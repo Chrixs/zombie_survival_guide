@@ -23,7 +23,7 @@ describe('personalized response', function() {
 
   it("should return a survival percentage based on the totalScore", function(){
     var totalScore = 4;
-    expect(personalizedResponse.survivalPercentage(totalScore)).toEqual('24%');
+    expect(personalizedResponse.survivalPercentage(totalScore)).toEqual('4%');
   });
 
 });

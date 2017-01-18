@@ -1,7 +1,11 @@
-$(function() {
+
+$("#button").click(function(e) {
+    e.preventDefault()
     var update = function() {
-        $('#serializearray').text(
-            JSON.stringify($('.question1').serializeArray())
+      var p = new PersonalizedResponse();
+      var survivalPercentage = p.survivalPercentage(p.getTotalScore(p.getValue($('.question1').serializeArray())));
+        $('.form-response').text(
+          JSON.stringify(survivalPercentage)
         );
 
     };
