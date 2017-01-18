@@ -31,47 +31,30 @@ body, html {
 }
 .link1{
   text-decoration:none;
-  font-size: 1000%;
+  font-size: 2500%;
   opacity: 0.7;
   top: 25%;
-  left: 30%;
+  left: 25%;
 }
 
 .link2{
   text-decoration:none;
   position: relative;
-  font-size: 1000%;
+  font-size: 2500%;
   top: 25%;
   left: 10%;
 }
 
 .link3{
   text-decoration:none;
-  font-size: 1000%;
+  font-size: 2500%;
   left: 30%;
-  top: 50%;
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
-/**#suppliesForWaterPurifier {
-  color: red;
-  font-size: 20%;
-    }*/
-#begginersGuide{
-=======
-
-.link4 {
-  text-decoration:none;
-  font-size: 1000%;
->>>>>>> 612ee94b50ca02c927366e32444db985f4094833
-  position: relative;
-  top: 50%;
-  left: 10%;
-  background: transparent;
+  top: 75%;
 }
 
 #line1{
   text-align: center;
+
 }
 #line2 {
   text-align: center;
@@ -90,16 +73,12 @@ body, html {
 }
 
 #beginnersGuide{
-<<<<<<< HEAD
   position: absolute;
   background: linear-gradient(to right, black, rgba(255, 0,0,0));
   text-shadow: 3px 3px #262626;
->>>>>>> c3c2c074bcba1b0973633247345b47f341c04c9f
-=======
   text-align: center;
->>>>>>> 612ee94b50ca02c927366e32444db985f4094833
   margin: 0px;
-  color:#9E0000;
+  color: red;
   font-size: 300%;
 }
 
@@ -108,6 +87,7 @@ body, html {
 }
 #read_more_after{
   opacity: 1;
+  font-size: 2em;
 }
 .medicalInfo{
   background: linear-gradient(to right, black, rgba(255, 0,0,0));
@@ -118,6 +98,54 @@ body, html {
   background-padding:20px;
   font-size:20px;
   color:#FFF8FD;
+  max-width: relative;
+  text-align: justify;
+  padding-right:10px ;
+  padding-left:10px ;
+
+}
+.foodInfo{
+  background: linear-gradient(to right, black, rgba(255, 0,0,0));
+  background-color:grey;
+  margin-bottom:0px;
+  background-color:#9E0000;
+  padding-top:10px;
+  background-padding:20px;
+  font-size:20px;
+  color:#FFF8FD;
+  text-align: justify;
+
+
+
+
+}
+.waterInfo{
+  background: linear-gradient(to right, black, rgba(255, 0,0,0));
+  background-color:grey;
+  margin-bottom:0px;
+  background-color:#9E0000;
+  padding-top:10px;
+  background-padding:20px;
+  font-size:20px;
+  color:#FFF8FD;
+  max-width: auto;
+  text-align: justify;
+
+
+}
+.hunterInfo{
+  background: linear-gradient(to right, black, rgba(255, 0,0,0));
+  background-color:grey;
+  margin-bottom:0px;
+  background-color:#9E0000;
+  padding-top:10px;
+  background-padding:20px;
+  font-size:20px;
+  color:#FFF8FD;
+  max-width: auto;
+  padding-right: 10px;
+  text-align: justify;
+  padding-left: 10px;
 
 }
 
