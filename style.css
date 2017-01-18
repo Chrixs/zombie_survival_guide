@@ -97,7 +97,36 @@ body, html {
   background-padding:20px;
   font-size:20px;
   color:#FFF8FD;
-
+}
+.foodInfo{
+  background: linear-gradient(to right, black, rgba(255, 0,0,0));
+  background-color:grey;
+  margin-bottom:0px;
+  background-color:#9E0000;
+  padding-top:10px;
+  background-padding:20px;
+  font-size:20px;
+  color:#FFF8FD;
+}
+.waterInfo{
+  background: linear-gradient(to right, black, rgba(255, 0,0,0));
+  background-color:grey;
+  margin-bottom:0px;
+  background-color:#9E0000;
+  padding-top:10px;
+  background-padding:20px;
+  font-size:20px;
+  color:#FFF8FD;
+}
+.hunterInfo{
+  background: linear-gradient(to right, black, rgba(255, 0,0,0));
+  background-color:grey;
+  margin-bottom:0px;
+  background-color:#9E0000;
+  padding-top:10px;
+  background-padding:20px;
+  font-size:20px;
+  color:#FFF8FD;
 }
 
 .parallax4{
