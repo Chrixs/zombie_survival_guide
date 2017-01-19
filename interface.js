@@ -7,6 +7,7 @@ $("#button").click(function(e) {
       console.log(parseInt(survivalPercentage))
       if(parseInt(survivalPercentage) > 70) {
         $('.form-response').html(
+
           "<div id=survival-chance-good><p>Nice! Your chance of survival is " + survivalPercentage + ", here is some extra you might find helpful: </p><br/>"
         );
       }

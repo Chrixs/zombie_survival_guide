@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    line-height:25px;
+    background-color: black;
+}
+
+.redBanner {
+  /*background-color: #A41B1B;*/
+  margin: 0px;
+  /*font-family: Nobile;*/
+  /*font-size: 15px;*/
+  /*color: #FAFAFA*/
+  /*background: linear-gradient(to right, black, rgba(255,0,0,0));*/
+}
+
+.parallax{
+  margin: 0px;
+  background-image: url('./images/edgyzombie.jpg');
+  height: 150px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#grad {
+  margin: 0px;
+  font-family: Nobile;
+  font-size: 15px;
+  position: top;
+  height: 100%;
+  background: linear-gradient(to right, black, rgba(0,0,0,0.6));
+  color: #FAFAFA;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+#grad2 {
+  margin: 0px;
+  font-family: Nobile;
+  font-size: 15px;
+  position: top;
+  height: 100%;
+  background: linear-gradient(to right, black, rgba(0,0,0,0.6));
+  color: #FAFAFA;
+
+
+}
+
+#button {
+	box-shadow: 0px 4px 28px 7px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+  font-size: 22px;
+  padding: 10px 40px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #810e05;
+  position: relative;
+  left: 30%;
+  top:30%;
+}
+.body {
+  margin: 0px;
+  background-color: black;
+}
