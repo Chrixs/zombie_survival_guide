@@ -58,8 +58,22 @@ body, html {
   top: 75%;
   left: 10%;
 }
+.link5 {
+  text-decoration:none;
+  font-size: 1500%;
+  position: relative;
+  top: 75%;
+}
+.percentageSurvival{
+  font-size: 50%;
+  color: #E80E0C;
+}
+#line3{
+  text-align: center;
 
+}
 #line1{
+  line-height: 3;
   text-align: center;
 
 }
