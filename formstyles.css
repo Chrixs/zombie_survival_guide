@@ -16,7 +16,7 @@ body, html {
 
 .parallax{
   margin: 0px;
-  background-image: url('./images/zombie.jpg');
+  background-image: url('./images/edgyzombie.jpg');
   height: 150px;
   background-attachment: fixed;
   background-position: center;
