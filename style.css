@@ -3,9 +3,14 @@ body, html {
     margin: 0px;
 }
 
-#survival-chance {
-  color: rgb(88, 231, 21);
-  font-size: 40px;
+#survival-chance-good {
+color: green;
+}
+#survival-chance-average {
+color: rgb(232, 180, 23);
+}
+#survival-chance-bad {
+color: red;
 }
 
 .parallax6 {
