@@ -55,8 +55,6 @@ color: red;
   top: 75%;
 }
 
-#begginersGuide{
-
 .link4 {
   text-decoration:none;
   font-size: 1500%;
@@ -64,28 +62,31 @@ color: red;
   top: 75%;
   left: 10%;
 }
+
 .link5 {
   text-decoration:none;
   font-size: 1500%;
   position: relative;
   top: 75%;
 }
+
 .percentageSurvival{
   font-size: 50%;
   color: #E80E0C;
 }
 #line3{
   text-align: center;
-
 }
+
 #line1{
   line-height: 3;
   text-align: center;
-
 }
+
 #line2 {
   text-align: center;
 }
+
 #link_to_guide{
   background-color:black;
 }
@@ -100,7 +101,6 @@ color: red;
 }
 
 #beginnersGuide{
-
   position: absolute;
   background: linear-gradient(to right, black, rgba(255, 0,0,0));
   text-shadow: 3px 3px #262626;
@@ -113,10 +113,12 @@ color: red;
 #read_more{
   opacity: 0;
 }
+
 #read_more_after{
   opacity: 1;
   font-size: 2em;
 }
+
 .medicalInfo{
   background: linear-gradient(to right, black, rgba(255, 0,0,0));
   background-color:grey;
@@ -130,8 +132,8 @@ color: red;
   text-align: justify;
   padding-right:10px ;
   padding-left:10px ;
-
 }
+
 .foodInfo{
   background: linear-gradient(to right, black, rgba(255, 0,0,0));
   background-color:grey;
@@ -142,11 +144,8 @@ color: red;
   font-size:20px;
   color:#FFF8FD;
   text-align: justify;
-
-
-
-
 }
+
 .waterInfo{
   background: linear-gradient(to right, black, rgba(255, 0,0,0));
   background-color:grey;
@@ -158,9 +157,8 @@ color: red;
   color:#FFF8FD;
   max-width: auto;
   text-align: justify;
-
-
 }
+
 .hunterInfo{
   background: linear-gradient(to right, black, rgba(255, 0,0,0));
   background-color:grey;
@@ -174,7 +172,6 @@ color: red;
   padding-right: 10px;
   text-align: justify;
   padding-left: 10px;
-
 }
 
 .parallax4{
@@ -185,6 +182,7 @@ color: red;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .parallax5{
   background-image: url('./images/Zombie-Apocalypse.jpg');
   height: inherit;
