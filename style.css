@@ -13,6 +13,10 @@ color: rgb(232, 180, 23);
 color: red;
 }
 
+.form-response {
+  background-color: blue;
+}
+
 .parallax6 {
   background-image: url('./images/zombieHands.jpg');
   height: 50%;
