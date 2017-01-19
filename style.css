@@ -3,23 +3,14 @@ body, html {
     margin: 0px;
 }
 
-#survival-chance {
-height: 50%;
-margin: 0px;
-background-color: grey;
+#survival-chance-good {
+color: green;
 }
-.form-response {
-  margin: 0px;
+#survival-chance-average {
+color: rgb(232, 180, 23);
 }
-.response-parallax {
-  background-image: url('./images/zombie_clown.jpg');
-  height: 500px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0px;
+#survival-chance-bad {
+color: red;
 }
 .parallax6 {
   background-image: url('./images/zombieHands.jpg');
@@ -73,8 +64,22 @@ background-color: grey;
   top: 75%;
   left: 10%;
 }
+.link5 {
+  text-decoration:none;
+  font-size: 1500%;
+  position: relative;
+  top: 75%;
+}
+.percentageSurvival{
+  font-size: 50%;
+  color: #E80E0C;
+}
+#line3{
+  text-align: center;
 
+}
 #line1{
+  line-height: 3;
   text-align: center;
 
 }
