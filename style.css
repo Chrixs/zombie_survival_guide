@@ -3,19 +3,6 @@ body, html {
     margin: 0px;
 }
 
-#survival-chance-good {
-color: green;
-}
-#survival-chance-average {
-color: rgb(232, 180, 23);
-}
-#survival-chance-bad {
-color: red;
-}
-
-.form-response {
-  background-color: blue;
-}
 
 .parallax6 {
   background-image: url('./images/zombieHands.jpg');

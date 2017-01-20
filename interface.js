@@ -3,7 +3,7 @@ $("#button").click(function(e) {
     e.preventDefault()
     var update = function() {
       var p = new PersonalizedResponse();
-      var survivalPercentage = p.survivalPercentage(p.getTotalScore(p.getValue($('.question1').serializeArray())));
+      var survivalPercentage = p.survivalPercentage(p.getTotalScore(p.getValue($('.questions').serializeArray())));
       console.log(parseInt(survivalPercentage))
 
       $('.form-body').html(
@@ -11,12 +11,12 @@ $("#button").click(function(e) {
         );
       if(parseInt(survivalPercentage) > 70) {
         $('.form-response').html(
-          "<div class='response-percentage' id=survival-chance-good><p>Nice! Your chance of survival is " + survivalPercentage + ", here is some extra you might find helpful: </p></div>"
+          "<div class='response-percentage' id=survival-chance-good><p>Nice! Your chance of survival is " + survivalPercentage + ", here is some extra you might find helpful: </p></div><div class='response-info'></div>"
         );
       }
       else if(parseInt(survivalPercentage) > 50) {
         $('.form-response').html(
-          "<div class='response-percentage' id=survival-chance-average><p>Oooh, your chance of survival is " + survivalPercentage + ", its not bad but you might want to think about changing your appoach a bit, you might find this helpful: </p></div>"
+          "<div class='response-percentage' id=survival-chance-average><p>Oooh, your chance of survival is " + survivalPercentage + ", its not bad but you might want to think about changing your appoach a bit, you might find this helpful: </p></div><div class='response-info'></div>"
         );
       }
 
@@ -32,5 +32,4 @@ $("#button").click(function(e) {
         );
     };
     update();
-    $('.question1').change(update);
 })

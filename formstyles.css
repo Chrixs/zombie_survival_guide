@@ -5,13 +5,23 @@ body, html {
     background-color: black;
 }
 
+#survival-chance-good {
+color: green;
+}
+#survival-chance-average {
+color: rgb(232, 180, 23);
+}
+#survival-chance-bad {
+color: red;
+}
+
+.form-response {
+  background: linear-gradient(to bottom, #981111, rgba(0,0,0,0.6));
+  color: white;
+}
+
 .redBanner {
-  /*background-color: #A41B1B;*/
-  margin: 0px;
-  /*font-family: Nobile;*/
-  /*font-size: 15px;*/
-  /*color: #FAFAFA*/
-  /*background: linear-gradient(to right, black, rgba(255,0,0,0));*/
+
 }
 
 .parallax{
