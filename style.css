@@ -75,6 +75,14 @@ color: red;
   top: 75%;
 }
 
+.link6{
+  text-decoration:none;
+  font-size: 120%;
+  position: relative;
+  top: 75%;
+  color:#FFF8FD;
+}
+
 .percentageSurvival{
   font-size: 50%;
   color: #E80E0C;
@@ -107,12 +115,12 @@ color: red;
 
 #beginnersGuide{
   position: absolute;
-  background: linear-gradient(to right, black, rgba(255, 0,0,0));
-  text-shadow: 3px 3px #262626;
+  text-shadow: 4px 4px #420000;
   text-align: center;
   margin: 0px;
   color: red;
   font-size: 300%;
+  padding-top: 50%;
 }
 
 #read_more{
@@ -164,20 +172,46 @@ color: red;
   text-align: justify;
 }
 
-.hunterInfo{
-  background: linear-gradient(to right, black, rgba(255, 0,0,0));
-  background-color:grey;
-  margin-bottom:0px;
-  background-color:#9E0000;
-  padding-top:10px;
+.hunterInfo1{
+  padding-top:2%;
+  padding-bottom:2%;
   background-padding:20px;
-  font-size:20px;
+  font-size:1.2em;
   color:#FFF8FD;
   max-width: auto;
-  padding-right: 10px;
-  text-align: justify;
-  padding-left: 10px;
+  text-align: right;
+  padding-left: 5%;
+  padding-right: 3%;
 }
+
+.hunterInfo2{
+  padding-top:2%;
+  padding-bottom:2%;
+  background-padding:20px;
+  font-size:1.2em;
+  color:#FFF8FD;
+  max-width: auto;
+  text-align: left;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.title{
+  padding-top:5%;
+  font-size:1.5em;
+  text-align: center;
+  color: #FAFAFA;
+}
+
+#grad1 {
+  background: linear-gradient(to right, black, rgba(0,0,0,0.6));
+  color: #FAFAFA;
+}
+
+#grad2 {
+  background: linear-gradient(to left, black, rgba(0,0,0,0.6));
+  color: #FAFAFA;
+}
+
 
 .parallax4{
   background-image: url('./images/dying-light-zombie.jpg');
@@ -187,10 +221,8 @@ color: red;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.parallax5{
-  background-image: url('./images/Zombie-Apocalypse.jpg');
-  height: inherit;
+.parallax4_5{
+  background-image: url('./images/dying-light-zombie.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
